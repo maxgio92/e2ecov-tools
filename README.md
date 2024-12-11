@@ -14,3 +14,38 @@ The only application type supported are ones compiled. Script and application th
 analyze EXECUTABLE
 ```
 
+For example:
+
+```shell
+$ analyze myapp
+openat
+read
+gettid
+getpid
+gettid
+tgkill
+getpid
+kill
+getpid
+tgkill
+setitimer
+timer_create
+timer_settime
+timer_delete
+mincore
+clock_gettime
+rt_sigprocmask
+rt_sigaction
+mmap
+munmap
+madvise
+futex
+clone
+gettid
+exit
+sigaltstack
+arch_prctl
+sched_yield
+sched_getaffinity
+clock_gettime
+```
