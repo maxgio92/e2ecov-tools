@@ -1,6 +1,6 @@
-# test-coverage
+# e2ecov-tools
 
-Repository for tools to analyse functional test coverage of applications.
+Repository for tools to analyse end-to-end functional test coverage of applications.
 
 One of the proposed method is to use syscalls as a metric. The syscall profile is then compared to a one dynamically generated when running functional tests for the same application executable.
 
