@@ -10,6 +10,9 @@ The only application type supported are ones compiled. Script and application th
 
 ## `analyze`
 
+Analyse analyzes and reports the system calls the binary executable executes.
+There are natural limitations on the static analysis this command does of syscall parameters, due to the nature of the stack and the architecture-specific calling conventions.
+
 ```shell
 analyze EXECUTABLE
 ```
