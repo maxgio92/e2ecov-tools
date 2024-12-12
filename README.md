@@ -12,6 +12,9 @@ The only application type supported are ones compiled. Script and application th
 
 Analyse analyzes and reports the system calls the binary executable executes.
 
+### Requirements
+- binutils (`objdump` tool)
+
 ```shell
 analyze EXECUTABLE
 ```
