@@ -14,6 +14,8 @@ Analyse analyzes and reports the system calls the binary executable executes.
 
 ### Requirements
 - binutils (`objdump` tool)
+- syscall table file (`/usr/include/asm/unistd_64.h` by default)
+- `objdump` compiled for the same architecture of the target executable
 
 ```shell
 analyze EXECUTABLE
